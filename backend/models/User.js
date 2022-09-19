@@ -23,7 +23,7 @@ var UserSchema = new mongoose.Schema(
       index: true
     },
     bio: String,
-    image: String,
+    image: { type: String, default: '/placeholder.png' },
     role: {
       type: String,
       enum: ["user", "admin"],
