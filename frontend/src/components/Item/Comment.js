@@ -14,7 +14,7 @@ const Comment = (props) => {
           <div className="d-flex flex-row align-items-center pt-2">
             <Link to={`/@${comment.seller.username}`} className="user-pic mr-2">
               <img
-                src={comment.seller.image}
+                src={comment.seller.image || "/placeholder.png"}
                 className="user-pic rounded-circle"
                 alt={comment.seller.username}
               />
