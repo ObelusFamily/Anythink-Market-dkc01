@@ -9,7 +9,7 @@ const ItemList = (props) => {
   }
 
   if (props.items.length === 0) {
-    return <NoResultsForSearch  />
+    return <NoResultsForSearch />;
   }
 
   return (
