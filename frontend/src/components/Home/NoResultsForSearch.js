@@ -20,7 +20,7 @@ class NoResultsForSearch extends Component {
               alt="crying emoticon"
               src="/crying.png"
             />
-            <p className={classes.text}>
+            <p id="empty" className={classes.text}>
               No items found for "<strong>{this.props.title}</strong>".
             </p>
           </div>
