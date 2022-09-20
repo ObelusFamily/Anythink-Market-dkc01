@@ -31,6 +31,8 @@ class Home extends React.Component {
     const tab = "all";
     const itemsPromise = agent.Items.all;
 
+    console.log(this.props)
+
     this.props.onLoad(
       tab,
       itemsPromise,
