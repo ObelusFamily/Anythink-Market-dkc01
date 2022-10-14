@@ -13,8 +13,8 @@ class NoResultsForSearch extends Component {
   render() {
     if (this.props.title) {
       return (
-        <div className={classes.wrapper}>
-          <div id="empty" className={classes.box}>
+        <div id="empty" className={classes.wrapper}>
+          <div className={classes.box}>
             <img
               className={classes.img}
               alt="crying emoticon"

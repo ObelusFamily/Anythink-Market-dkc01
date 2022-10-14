@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className="banner text-white">
       <div className="container p-4 text-center">
-        <img src={logo} alt="banner" />
+        <img height="30px" src={logo} alt="banner" />
         <div>
           <span id="get-part">A place to get</span>
           <SearchBar />
