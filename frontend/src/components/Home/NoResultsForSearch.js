@@ -13,14 +13,14 @@ class NoResultsForSearch extends Component {
   render() {
     if (this.props.title) {
       return (
-        <div className={classes.wrapper}>
+        <div id="empty" className={classes.wrapper}>
           <div className={classes.box}>
             <img
               className={classes.img}
               alt="crying emoticon"
               src="/crying.png"
             />
-            <p id="empty" className={classes.text}>
+            <p className={classes.text}>
               No items found for "<strong>{this.props.title}</strong>".
             </p>
           </div>

@@ -9,7 +9,9 @@
   display: flex;
   flex-direction: column;
   padding: 30px 120px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  width: 700px;
+  max-width: 100%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -20,6 +22,7 @@
   width: 75px;
   height: 75px;
   object-fit: contain;
+  filter: brightness(0) invert(1);
 }
 
 .text {
